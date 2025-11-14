@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 7860
 
 # Use Gunicorn to run the app. It will get the port from the $PORT env var.
-CMD ["gunicorn", "-b", "0.0.0.0:${PORT}", "app:app", "--timeout", "300"]
+CMD gunicorn -b 0.0.0.0:${PORT} app:app --timeout 300
