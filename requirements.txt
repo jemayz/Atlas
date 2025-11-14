@@ -16,3 +16,4 @@ tavily-python
 rank_bm25
 Flask-Session
 gunicorn
+pymupdf4llm
