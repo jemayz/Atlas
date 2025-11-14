@@ -17,3 +17,6 @@ rank_bm25
 Flask-Session
 gunicorn
 pymupdf4llm
+llama-parse
+uuid6
+langchain-experimental
