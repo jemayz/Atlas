@@ -20,3 +20,4 @@ pymupdf4llm
 llama-parse
 uuid6
 langchain-experimental
+flask-cors
